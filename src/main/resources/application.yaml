@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: validate #validate #по схеме
+      #create-drop hibernate создает
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop
+    username: admin
+    password: 1234
+  flyway:
+    baseline-on-migrate: true  
+  
