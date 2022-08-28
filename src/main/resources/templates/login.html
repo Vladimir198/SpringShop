@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
     </head>
     <body>
+    <div th:insert="~{fragments/menu :: #nav-menu}"></div>
         <form th:action="@{/auth}" method="post">
             <table border="1">
                 <tr>
